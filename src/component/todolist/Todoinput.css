@@ -1,0 +1,35 @@
+.box-inp {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 15px;
+  padding: 10px;
+}
+.box-inp input {
+  width: 90%;
+  padding: 4px 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: none;
+}
+.btn-add {
+  padding: 4px 12px;
+  width: 30%;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(222, 129, 129);
+  border-radius: 4px;
+  color: white;
+}
+.ant-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.inp-search {
+  padding: 4px 12px 4px 6px;
+  outline: none;
+  font-size: 14px;
+}

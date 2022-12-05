@@ -1,0 +1,9 @@
+.username-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.username-box a {
+  color: black;
+  text-decoration: none;
+}
